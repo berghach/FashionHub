@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link href="//fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>fashionHub</title>
+</head>
+<body>
+
+    <!--navigation bar-->
+    <header id="site_header" class="fixed-top">
+        <div class="icons">
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="heart-outline"></ion-icon>
+            <ion-icon name="bag-outline"></ion-icon>
+            <ion-icon name="person-outline"></ion-icon>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="/index.html">fashionHub</a>
+            </div>
+            <div class="topnav">
+                    <a href="#subscribe">Subscribe</a>
+                    <a href="#catalogue">Catalogue</a>
+                    <a class="active" href="/index.html">Home</a>
+            </div>
+        </nav>
+    </header>
+    <!--/navigation bar-->
+
+    <!--headline-->
+    <section class="headline">
+        <marquee behavior="alternate" direction="" scrollamount="10">
+                <img src="assets/pics_brief3/fashion_event.png" alt="New York Fashion Week 2023">
+                <img src="assets/pics_brief3/image_homme3.jpg" alt="Men fashion">
+                <img src="assets/pics_brief3/image1.jpg" alt="Women fashion">
+                <img src="assets/pics_brief3/image_kids2.jpg" alt="Kids fashion">
+                <img src="assets/pics_brief3/haute_couture5.jpeg" alt="haute couture">
+        </marquee>
+    </section>
+    <!--/headline-->
+
+    <!--catalogue-->
+
+    <section id="catalogue" class="catalogue">
+        <h1>Catalogue</h1>
+        <div class="categories">
+            <div>
+                <img src="assets/pics_brief3/offres.jpg" alt="fashion offres">
+                <div class="cat">
+                    <a href="#xxxx">Offers</a>
+                </div>
+            </div>
+            <div>
+                <img src="assets/pics_brief3/image_homme4.jpg" alt="men fashion">
+                <div class="cat">
+                    <a href="#xxxx">Men</a>
+                </div>
+            </div>
+            <div>
+                <img src="assets/pics_brief3/image7.jpg" alt="women fachion">
+                <div class="cat">
+                    <a href="#xxxx">Women</a>
+                </div>
+            </div>
+            <div>
+                <img src="assets/pics_brief3/image_kids1.jpg" alt="kids fashion">
+                <div class="cat">
+                    <a href="#xxxx">Kids</a>
+                </div>
+            </div>
+            <div>
+                <img src="assets/pics_brief3/brands.jpg" alt="fashion brands">
+                <div class="cat">
+                    <a href="#xxxx">Brands</a>
+                </div>
+            </div>
+            <div>
+                <img src="assets/pics_brief3/haute_couture6.jpeg" alt="haute couture">
+                <div class="cat">
+                    <a href="#xxxx">Haute Couture</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---/catalogue-->
+
+    <!--subscribtion-->
+    <section id="subscribe" class="subscribe">
+            <h1>Subscribtion</h1>
+        <form>
+            <div>
+                <label for="Fname">Full Name</label>
+                <input type="text" name="Fname" id="Fname" placeholder="Jhon Doe">
+            </div>
+            <div>
+                <label for="e-mail">E-mail</label>
+                <input type="email" name="e-mail" id="e-mail" placeholder="jhon@email.com">
+            </div>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    <!--/subscribtion-->
+
+    <!--client review-->
+    <section class="review">
+        <div class="rev-cont1">
+            <img src="assets/pics_brief3/fashion.jpg" alt="fashion">
+            <div class="comments">
+                <p>Our satisfied costumer</p>
+                <div>
+                    <img src="assets/pics_brief3/profile.jpg" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse?</p>
+                </div>
+                <div>
+                    <img src="assets/pics_brief3/profile.jpg" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse?</p>
+                </div>
+                <div>
+                    <img src="assets/pics_brief3/profile.jpg" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse?</p>
+                </div>
+                <button>view more</button>
+            </div>
+        </div>
+        <div class="rev-cont2">
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 16px;">
+                <p>How would you rate our service?</p>
+                <div>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                    <ion-icon name="star-outline"></ion-icon>
+                </div>
+                <div class="rev-input">
+                    <input type="text" name="comment" id="comment" placeholder="Your comment ...(optional)">
+                    <button type="submit"><ion-icon name="send-outline" style="color: white;"></ion-icon></button>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <p>How to improve our service?</p>
+                <div class="rev-input">
+                    <input type="text" name="message" id="message" placeholder="Text here...">
+                    <button type="submit"><ion-icon name="send-outline" style="color: white;"></ion-icon></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/client review-->
+
+    <!--FAQ-->
+    <section class="FAQ">
+        <h1>F.a.Q</h1>
+        <div class="questions">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
+        </div>
+    </section>
+    <!--/FAQ-->
+
+    <!--footer-->
+    <section class="footer">
+        <div class="footer1">
+            <div class="logo">
+                <a href="/index.html">fashionHub</a>
+            </div>
+            <div class="social-pages">
+                <ion-icon name="logo-twitter"></ion-icon>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <ion-icon name="logo-facebook"></ion-icon>
+            </div>
+        </div>
+        <div class="footer2">
+            <div>
+                <p style="font-weight: bold;">contact us</p>
+                <div>
+                    <ion-icon name="call-outline"></ion-icon>
+                    <p>+1 (0) 234-56798</p>
+                </div>
+                <div>
+                    <ion-icon name="business-outline"></ion-icon>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="except">
+                <p style="font-weight: bold;">2023 company</p>
+                <p>Privacy Policy</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+    </section>
+    <!--/footer-->
+
+    <!--icones component-->
+    <!-- <ion-icon name=""></ion-icon> -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--/icones component-->
+
+</body>
+</html>

@@ -1,0 +1,448 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&family=Gwendolyn:wght@400;700&display=swap');
+
+ /* 
+    font-family: 'Gudea', sans-serif;
+    font-family: 'Gwendolyn', cursive; 
+ */
+ ::-webkit-scrollbar {
+  width: 10px;
+}
+
+input:focus{
+  outline: none;
+}
+
+body{
+  font-family: 'Gudea', sans-serif;
+  overflow-x: hidden;
+  margin: 0%;
+}
+
+section{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  text-align: center;
+  font-family: 'Gwendolyn', cursive;
+  margin: 0px 16px 16px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ /* navigation bar */
+ 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    background: linear-gradient(to bottom, black,transparent);
+}
+
+ .icons{
+  right: 20px;
+  top: 20px;
+  position: absolute;
+ }
+
+ .icons ion-icon{
+  color: white;
+  font-size: 32px;
+ }
+
+.logo a{
+    font-family: 'Gwendolyn', cursive;
+    color: white;
+    font-size: 64px;
+    padding: 14px 16px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: transparent;
+    
+  }
+  
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+  .topnav a:hover {
+    text-decoration-line: underline;
+  }
+  
+  .topnav a.active {
+    text-decoration-line: underline;
+  }
+  /* navigation bar */
+
+  /* headline */
+  .headline{
+    display: flex;
+  }
+
+  .headline div{
+    display: flex;
+    height: 100vh;
+  }
+
+  .headline img{
+    width: 100vw;
+    height: 100vh;
+  }
+
+  
+  /* headline */
+
+  /* catalogue */
+
+  .catalogue{
+    padding: 32px;
+    background-color: white;
+    color: black;
+  }
+
+  .cat{
+    margin: 0px;
+    padding: 8px 24px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 32px;
+  }
+
+  .categories{
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .categories div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .categories img{
+    width: 240px;
+    height: 320px;
+    border: 8px solid #F1D8C4;
+    border-radius: 32px;
+    margin: 8px 80px;
+  }
+
+  /* catalogue */
+
+  /* subscribtion */
+
+  .subscribe {
+    padding: 32px;
+    background-color: black;
+    color: white;
+  }
+
+  .subscribe form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subscribe div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 60%;
+    padding: 3%;
+  }
+
+  .subscribe input{
+    background-color: rgb(245, 219, 198);
+    border: 8px solid white;
+    border-radius: 100px;
+    padding: 16px;
+    font-size: 24px;
+  }
+
+  .subscribe label{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 0px 8px 32px;
+  }
+
+  .subscribe button{
+    width: 60%;
+    color: white;
+    background-color: transparent;
+    border: 8px solid white;
+    border-radius: 100px;
+    font-size: 32px;
+    padding: 8px;
+  }
+
+  /* subscribtion */
+
+  /* review */
+
+  .review {
+    padding: 32px;
+    background-color: #FFC1A1;
+    color: black;
+  }
+
+  .review img {
+    width: 464px;
+    height: 664px;
+    border-radius: 40px;
+  }
+
+  .rev-cont1{
+    display: flex; 
+    justify-content: space-around;
+  }
+
+  .rev-cont2{
+    display: flex; 
+    justify-content: space-around;
+  }
+
+  .rev-cont2 p{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 16px 0px;
+  }
+
+  .rev-cont2 ion-icon{
+    font-size: 48px;
+  }
+
+  .comments {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comments p{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 16px 0px;
+  }
+
+  .comments div {
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    margin: 16px 0px;
+  }
+
+  .comments div p{
+    font-size: 24px;
+    font-weight: normal;
+    padding: 0px 16px;
+  }
+
+  .comments div img{
+    width: 72px;
+    height: 72px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 16px;
+  }
+
+  .comments button{
+    width: 256px;
+    height: 72px;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 16px 0px;
+    border: 8px solid black;
+    border-radius: 100px;
+  }
+
+  .rev-input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #bbb;
+    border-radius: 50px;
+    background-color: white;
+    padding: 2%;
+  }
+  
+  .rev-input input{
+    width: 100%;
+    height: 70%;
+    font-size: 24px;
+    margin-left: 8px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .rev-input button{
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 16px;
+    background-color: black;
+  }
+
+  /* review */
+
+  /*FAQ*/
+
+  .FAQ{
+    padding: 32px;
+    background-color: white;
+  }
+
+  .questions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .questions div{
+    padding: 0px 8px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #F5DBC6;
+    border: 4px solid black;
+    border-radius: 50px;
+  }
+
+  .questions p{
+    margin: 16px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .questions ion-icon{
+    font-size: 32px;
+  }
+
+  /*FAQ*/
+  /*footer*/
+
+  .footer{
+    padding: 32px;
+    background-color: black;
+  }
+
+  .footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .social-pages{
+    display: inline;
+    gap: 16px;
+  }
+
+  .social-pages ion-icon{
+    margin: 8px;
+    color: white;
+    font-size: 40px;
+  }
+
+  .footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .footer2 div{
+    margin-right: 24px;
+  }
+
+  .footer2 p{
+    color: white;
+    font-size: 32px;
+    margin: 16px 0px;
+  }
+
+  .footer2 ion-icon{
+    margin: 8px;
+    color: white;
+    font-size: 40px;
+  }
+
+  .footer2 div div{
+    display: flex;
+  }
+
+  .except p{
+    font-size: 24px;
+    align-items: center;
+  }
+
+  /*footer*/
+  /* responsive */
+
+  @media (max-width:1000px){
+
+    /* review */
+
+    .rev-cont1{
+      display: block;
+    }
+
+    .rev-cont2{
+      display: block;
+    }
+
+    .comments{
+      margin-top: 40px;
+    }
+
+    /* review */
+
+    /*footer*/
+
+    .footer1{
+      flex-direction: column;
+      align-items: start;
+      gap: 40px;
+    }
+
+    .footer2{
+      flex-direction: column;
+      align-items: start;
+      gap: 40px;
+    }
+
+    /*footer*/
+
+  }
+
+  /* responsive */
